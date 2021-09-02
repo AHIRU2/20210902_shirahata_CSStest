@@ -1,0 +1,108 @@
+.mv{
+    position: relative;
+    height: 400px;
+    background: url(img/firstview.jpg) no-repeat center/cover;
+    width: 1000px;
+}
+
+.header-title{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: #fff;
+}
+
+.main{
+    width: 1000px;
+}
+
+h2{
+    margin-top: 70px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.about-item{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.article{
+    width: 30%;
+}
+
+.title{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.form{
+    width: 780px;
+    margin: 70px auto;
+}
+
+.form-item{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.form-item-label{
+    width: 30%;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form-item-input{
+    width: 70%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+#pulldown{
+    width: 130px;
+}
+
+.form-item-textarea{
+    width: 70%;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.form-btn{
+    margin: 20px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+#delete-btn{
+    background: gainsboro;
+}
+
+#submit-btn{
+    background: #5bc8ac;
+    color: #fff;
+}

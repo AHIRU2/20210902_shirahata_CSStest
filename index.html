@@ -5,11 +5,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CSStest</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- First View -->
+    <div class="mv">
+        <h1 class="header-title">キャッチコピー</h1>
+    </div>
 
+    <main class="main">
+
+        <!-- About -->
+        <div class="about">
+            <h2>About</h2>
+            <p class="about-item">
+                COACHTECH(コーチテック)はフリーランス特化型のオンラインコーチングプログラミングスクールです。<br>
+                プログラミング未経験の方でも、<span>「独自の学習ノウハウ」</span>でフリーランスエンジニアを、目指すことができます。
+            </p>
+        </div>
+
+        <!-- Blog -->
+        <div class="blog">
+            <h2>ブログ</h2>
+            <div class="wrapper">
+                <article class="article">
+                    <div class="content-img">
+                        <img src="img/blog__eyecatch1.jpg" />
+                    </div>
+                    <div class="text-box">
+                        <h3 class="title">
+                            コーチテックブログのタイトルがここに入ります。
+                        </h3>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="content-img">
+                        <img src="img/blog__eyecatch2.jpg" />
+                    </div>
+                    <div class="text-box">
+                        <h3 class="title">
+                            コーチテックブログのタイトルがここに入ります。
+                        </h3>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="content-img">
+                        <img src="img/blog__eyecatch3.jpg" />
+                    </div>
+                    <div class="text-box">
+                        <h3 class="title">
+                            コーチテックブログのタイトルがここに入ります。
+                        </h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="contact">
+            <h2>問い合わせ</h2>
+            <form class="form" name="contact" method="POST">
+                <div class="form-item">
+                    <p class="form-item-label">名前</p>
+                    <input type="text" name="name" class="form-item-input">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label">メールアドレス</p>
+                    <input type="email" name="email" class="form-item-input">
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label">用件</p>
+                    <select name="select" class="form-item-input" id="pulldown">
+                        <option value="広告掲載について">広告掲載について</option>
+                    </select>
+                </div>
+                <div class="form-item">
+                    <p class="form-item-label">内容</p>
+                    <textarea name="textarea" class="form-item-textarea"></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit" class="form-btn" id="delete-btn" value="削除">
+                    <input type="submit" class="form-btn" id="submit-btn" value="送信">
+                </div>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
